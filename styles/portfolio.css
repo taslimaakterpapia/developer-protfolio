@@ -149,7 +149,7 @@ main {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-  
+
 }
 
 
@@ -178,10 +178,49 @@ main {
 
 }
 
-section{
+section {
 
     margin-top: 130px;
 }
 
 /* resume styles */
 
+.resume-content {
+
+    display: flex;
+    gap: 24px;
+}
+
+.resume-item{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume .title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+   
+
+
+}
+
+.resume .sub-title {
+
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+
+}
+
+.resume-button{
+
+    margin-top: 50px;
+}
